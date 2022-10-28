@@ -1,0 +1,217 @@
+/* RESETS */
+
+* { box-sizing: border-box; }
+
+html, body{
+  height: 100%;
+}
+a, button {
+  cursor: pointer;
+}
+
+/* RESETS */
+
+/* MANDATORY */
+
+body{
+  margin: 0;
+}
+
+span{
+  color: red;
+  font-size: 20px;
+}
+
+
+
+footer{
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background-image: url(waves.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: moveswaves 7s infinite alternate linear;
+}
+
+@keyframes moveswaves{
+  100%{background-position: 15% 23%;}
+}
+
+/* CLASES */
+
+.reduction-buho{
+  width: 100px;
+  margin-bottom: -1%;
+}
+
+.reduction-buho-footer{
+  width: 60px;
+  margin-bottom: -10px;
+}
+
+
+.div-busqueda{
+  background-color: black;
+  margin: 0;
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.top-left{
+  color: white;
+  background: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  background-color: transparent;
+}
+
+.top-right{
+  color: white;
+  background: transparent;
+  font-weight: 700;
+  float: right;
+  font-size: 14px;
+  border: 0;
+}
+
+.banner-div{
+  text-align: center;
+  display: grid;
+  place-items: center;
+  width: auto;
+  margin-top: 130px;
+}
+
+.button-ingresar{
+  background: transparent;
+  border: 0;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  width: 100%;
+  height: 25px ;
+}
+
+.content-div{
+  text-align: center;
+  place-items: center;
+  width: auto;
+  height: auto;
+  margin-top: 167px;
+  padding-bottom: -20px;
+}
+
+.reduction-opciones{
+  width: 17px;
+}
+
+.button-opciones-right{
+  background-color: transparent;
+  border: 0;
+  float: right;
+  margin-top: -38px;
+  margin-right: -2.5%;
+}
+
+.button-opciones-left{
+  background-color: transparent;
+  border: 0;
+  float: left;
+  margin-top: -38px;
+  margin-left: -2.5%;
+}
+
+.section-div{
+  padding: 120px 0px 40px 0px;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.reduction-section{
+  width: 400px;
+  border-radius: 4px;
+}
+
+.middle-figs{
+  text-align: center;
+}
+
+.middle-figs-caps{
+  margin: -10px 0px 14px 0px;
+  text-align: center;
+}
+
+.section2-div{
+  padding: 120px 0px 80px 0px;
+  width: auto;
+  background-color: black;
+  display: grid;
+  place-items: center;
+
+}
+
+.reduction2-section{
+  width: 400px;
+  border-radius: 3px;
+}
+
+.color-p{
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding: 0px 100px 10px 100px;
+}
+
+.footer-div{
+  text-align: center;
+  color: black;
+  width: 280px;
+  height: auto;
+  padding: 30px 39px 30px 39px;
+  background-color: white;
+  border-radius: 27px;
+  margin-bottom: 30px;
+}
+
+
+.form-footer{
+  display: grid;
+  width: 100%;
+  gap: 7px;
+}
+
+.button-registro{
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  height: 23px;
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+#inline{
+  display: inline;
+}
+
+.reduce-ig{
+  width: 40px;
+  margin-top: -20px;
+}
+
+.banner-footer{
+  margin-top: 50px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.small-footer{
+  color: white;
+}
+
+/* CLASES */
